@@ -517,12 +517,6 @@ a:hover {
   font-size: 0.97rem;
 }
 
-.link-soon {
-  color: var(--faint);
-  font-style: italic;
-  font-weight: 400;
-}
-
 .pub-links {
   display: flex;
   flex-wrap: wrap;
@@ -866,8 +860,7 @@ html:not(.js) .bib-toggle {
   .skip-link,
   .theme-toggle,
   .bib-toggle,
-  .bib,
-  .link-soon {
+  .bib {
     display: none !important;
   }
 

@@ -144,19 +144,30 @@
         <ol class="pubs">
 
           <li class="pub">
-            <a class="pub-thumb" href="https://huggingface.co/datasets/mariobench2026/MaRiO" tabindex="-1" aria-hidden="true">
+            <a class="pub-thumb" href="https://openreview.net/forum?id=mIOeyilg4F" tabindex="-1" aria-hidden="true">
               <img src="assets/img/pubs/mario.webp" width="560" height="350" alt="Three agents' views of the same house, from the MaRiO benchmark" loading="lazy" decoding="async">
             </a>
             <div>
-              <div class="badges"><span class="badge badge-main">NeurIPS 2026</span></div>
-              <h3><a href="https://huggingface.co/datasets/mariobench2026/MaRiO">MaRiO: Multiagent Collaborative Reasoning via Shared Observations in MLLMs</a></h3>
+              <div class="badges"><span class="badge badge-main">NeurIPS 2026 (Evaluations &amp; Datasets Track)</span></div>
+              <h3><a href="https://openreview.net/forum?id=mIOeyilg4F">MaRiO: Multi-agent Collaborative Reasoning via Shared Observations in MLLMs</a></h3>
               <p class="authors">N. Redmond*, <span class="me">F. Tito</span>*, D. Sharma, S. Azad, S. Mitra, S. Vyas, Y. S. Rawat</p>
               <p class="equal-note">* Equal contribution</p>
               <p class="tldr">A spatial reasoning benchmark where two or three agents each see part of the same scene, and a multimodal LLM has to combine their views to answer questions about occlusion, distance, relative position, navigation and motion.</p>
               <ul class="pub-links">
+                <li><a href="https://openreview.net/forum?id=mIOeyilg4F">OpenReview</a></li>
                 <li><a href="https://huggingface.co/datasets/mariobench2026/MaRiO">Hugging Face</a></li>
-                <li><span class="link-soon">BibTeX (coming soon)</span></li>
+                <li><button class="link-button bib-toggle" type="button" aria-expanded="false" aria-controls="bib-mario">BibTeX</button></li>
               </ul>
+              <div class="bib" id="bib-mario" hidden>
+<pre><code>@inproceedings{redmond2026mario,
+  author    = {Redmond, Nathaniel and Tito Cruz, Fidel Omar and Sharma, Devansh and Azad, Shehreen and Mitra, Sirshapan and Vyas, Shruti and Rawat, Yogesh},
+  title     = {{MaRiO}: Multi-agent Collaborative Reasoning via Shared Observations in {MLLMs}},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=mIOeyilg4F}
+}</code></pre>
+                <button class="copy" type="button">Copy</button>
+              </div>
             </div>
           </li>
 
@@ -175,12 +186,14 @@
               </ul>
               <div class="bib" id="bib-signrr" hidden>
 <pre><code>@inproceedings{titocruz2026signrr,
-  title         = {{SignRR}: Retrieve and Refine Real Motion for Sign Language Production},
   author        = {Tito Cruz, Fidel Omar and Sanchez Marquina, Angie and Farfan, Summy and Bejarano, Gissella},
-  booktitle     = {British Machine Vision Conference (BMVC)},
+  title         = {{SignRR}: Retrieve and Refine Real Motion for Sign Language Production},
+  booktitle     = {37th British Machine Vision Conference 2026, {BMVC} 2026, Lancaster, UK, November 23-26, 2026},
+  publisher     = {BMVA},
   year          = {2026},
   eprint        = {2608.28568},
   archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
   url           = {https://arxiv.org/abs/2608.28568}
 }</code></pre>
                 <button class="copy" type="button">Copy</button>
@@ -198,18 +211,24 @@
               <p class="authors"><span class="me">F. Tito</span>, N. Ghafouri, Z. Wang, P. Khosravi, Y. Tian, C. Chen</p>
               <p class="tldr">Encodes four DCE-MRI scans per patient with a frozen 3D foundation model, models how they change during treatment with a temporal transformer, and fuses clinical data to predict pathologic complete response. Evaluated on 982 patients from I-SPY2 and ACRIN-6698.</p>
               <ul class="pub-links">
+                <li><a href="https://papers.miccai.org/miccai-2026-sat/AMAI_012.html">Paper</a></li>
                 <li><a href="https://arxiv.org/abs/2608.09991">arXiv</a></li>
                 <li><a href="https://github.com/omarftt/longitudinal_temporal_pillar">Code</a></li>
                 <li><button class="link-button bib-toggle" type="button" aria-expanded="false" aria-controls="bib-longitudinal">BibTeX</button></li>
               </ul>
               <div class="bib" id="bib-longitudinal" hidden>
 <pre><code>@inproceedings{titocruz2026longitudinal,
-  title         = {Longitudinal {3D} Foundation Modeling for Neoadjuvant Breast Cancer Response Prediction from Serial {DCE-MRI}},
   author        = {Tito Cruz, Fidel Omar and Ghafouri, Neda and Wang, Zengyan and Khosravi, Pegah and Tian, Yu and Chen, Chen},
-  booktitle     = {Applications of Medical AI (AMAI) Workshop at MICCAI},
+  title         = {Longitudinal {3D} Foundation Modeling for Neoadjuvant Breast Cancer Response Prediction from Serial {DCE-MRI}},
+  booktitle     = {Medical Image Computing and Computer Assisted Intervention -- {MICCAI} 2026 Workshops and Challenges},
+  series        = {Lecture Notes in Computer Science},
+  volume        = {17273},
+  publisher     = {Springer Nature Switzerland},
   year          = {2026},
+  note          = {Fifth Workshop on Applications of Medical AI (AMAI 2026)},
   eprint        = {2608.09991},
   archivePrefix = {arXiv},
+  primaryClass  = {eess.IV},
   url           = {https://arxiv.org/abs/2608.09991}
 }</code></pre>
                 <button class="copy" type="button">Copy</button>
@@ -247,10 +266,13 @@
               </ul>
               <div class="bib" id="bib-rvqvae" hidden>
 <pre><code>@inproceedings{titocruz2024generative,
-  title     = {Generative Interpolation of Sign Language Poses using {RVQ-VAE}},
   author    = {Tito Cruz, Fidel Omar and Bejarano, Gissella},
-  booktitle = {LatinX in AI Workshop at the Conference on Neural Information Processing Systems (NeurIPS)},
+  title     = {Generative Interpolation of Sign Language Poses using {RVQ-VAE}},
+  booktitle = {LatinX in AI at Neural Information Processing Systems Conference 2024},
+  publisher = {Journal of LatinX in AI Research},
   year      = {2024},
+  month     = dec,
+  doi       = {10.52591/2024121013},
   url       = {https://openreview.net/forum?id=leI9WFbHT2}
 }</code></pre>
                 <button class="copy" type="button">Copy</button>
@@ -273,11 +295,14 @@
               </ul>
               <div class="bib" id="bib-intercon" hidden>
 <pre><code>@inproceedings{titocruz2021comparison,
-  title     = {A Comparison of Gain Scheduling {PID} and $\mu$-Synthesis Robust Level Control for a Conical Tank System},
   author    = {Tito Cruz, Fidel and Doloriet Fernandez, Ralf and Guardia Guizado, Aldo and Francia Zorrilla, Jose},
-  booktitle = {2021 IEEE XXVIII International Conference on Electronics, Electrical Engineering and Computing (INTERCON)},
-  pages     = {1--4},
+  title     = {A Comparison of Gain Scheduling {PID} and $\mu$-Synthesis Robust Level Control for a Conical Tank System},
+  booktitle = {2021 {IEEE} {XXVIII} International Conference on Electronics, Electrical Engineering and Computing ({INTERCON})},
+  publisher = {IEEE},
+  address   = {Lima, Peru},
   year      = {2021},
+  month     = aug,
+  pages     = {1--4},
   doi       = {10.1109/INTERCON52678.2021.9532797}
 }</code></pre>
                 <button class="copy" type="button">Copy</button>
@@ -296,17 +321,18 @@
               <p class="tldr">Scores athletic dives from video with two streams, one reasoning about how body joints coordinate and one about appearance changes over time. Introduces the G-ExPose dataset.</p>
               <ul class="pub-links">
                 <li><a href="https://openaccess.thecvf.com/content/WACV2021/papers/Nekoui_EAGLE-Eye_Extreme-Pose_Action_Grader_Using_Detail_Birds-Eye_View_WACV_2021_paper.pdf">Paper</a></li>
-                <li><a href="https://github.com/MahdiNek/EAGLE-Eye">Code and data</a></li>
+                <li><a href="https://github.com/MahdiNek/EAGLE-Eye">Code</a></li>
                 <li><button class="link-button bib-toggle" type="button" aria-expanded="false" aria-controls="bib-eagle">BibTeX</button></li>
               </ul>
               <div class="bib" id="bib-eagle" hidden>
-<pre><code>@InProceedings{Nekoui_2021_WACV,
-  author    = {Nekoui, Mahdiar and Cruz, Fidel Omar Tito and Cheng, Li},
-  title     = {EAGLE-Eye: Extreme-Pose Action Grader Using Detail Bird's-Eye View},
+<pre><code>@inproceedings{Nekoui_2021_WACV,
+  author    = {Nekoui, Mahdiar and Tito Cruz, Fidel Omar and Cheng, Li},
+  title     = {{EAGLE-Eye}: Extreme-Pose Action Grader Using Detail Bird's-Eye View},
   booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  month     = {January},
   year      = {2021},
-  pages     = {394-402}
+  month     = jan,
+  pages     = {394--402},
+  doi       = {10.1109/WACV48630.2021.00044}
 }</code></pre>
                 <button class="copy" type="button">Copy</button>
               </div>
@@ -318,7 +344,7 @@
               <img src="assets/img/pubs/falcons.webp" width="320" height="343" alt="FALCONS architecture: pose and appearance graders combined with a diving classifier" loading="lazy" decoding="async">
             </a>
             <div>
-              <div class="badges"><span class="badge badge-workshop">CVPR 2020 Workshop</span></div>
+              <div class="badges"><span class="badge badge-workshop">CVPR 2020 Workshop (CVsports)</span></div>
               <h3><a href="https://openaccess.thecvf.com/content_CVPRW_2020/html/w53/Nekoui_FALCONS_FAst_Learner-Grader_for_CONtorted_Poses_in_Sports_CVPRW_2020_paper.html">FALCONS: FAst Learner-Grader for CONtorted Poses in Sports</a></h3>
               <p class="authors">M. Nekoui, <span class="me">F. Tito</span>, L. Cheng</p>
               <p class="tldr">A fast virtual referee that grades dives from visual cues and body-joint sequences. Introduces ExPose, a dataset of annotated extreme poses.</p>
@@ -327,12 +353,14 @@
                 <li><button class="link-button bib-toggle" type="button" aria-expanded="false" aria-controls="bib-falcons">BibTeX</button></li>
               </ul>
               <div class="bib" id="bib-falcons" hidden>
-<pre><code>@InProceedings{Nekoui_2020_CVPR_Workshops,
-  author    = {Nekoui, Mahdiar and Cruz, Fidel Omar Tito and Cheng, Li},
-  title     = {FALCONS: FAst Learner-Grader for CONtorted Poses in Sports},
+<pre><code>@inproceedings{Nekoui_2020_CVPR_Workshops,
+  author    = {Nekoui, Mahdiar and Tito Cruz, Fidel Omar and Cheng, Li},
+  title     = {{FALCONS}: {FAst} {Learner}-Grader for {CONtorted} Poses in {Sports}},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-  month     = {June},
-  year      = {2020}
+  year      = {2020},
+  month     = jun,
+  pages     = {3941--3949},
+  doi       = {10.1109/CVPRW50498.2020.00458}
 }</code></pre>
                 <button class="copy" type="button">Copy</button>
               </div>
